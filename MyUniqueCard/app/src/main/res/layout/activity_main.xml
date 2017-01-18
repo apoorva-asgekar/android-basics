@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1BEE7"
+    tools:context="com.example.android.myuniquecard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/dancinggirl"
+        android:scaleType="centerCrop"
+        android:alpha="0.7"
+        />
+
+    <TextView
+        android:id="@+id/poem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I hope you never lose your sense of wonder,
+You get your fill to eat but always keep that hunger,
+May you never take one single breath for granted,
+god forbid love ever leave you empty handed,
+I hope you still feel small when you stand beside the ocean,
+Whenever one door closes I hope one more opens,
+Promise me that you'll give faith a fighting chance,
+And when you get the choice to sit it out or dance.
+
+I hope you dance....I hope you dance."
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:textStyle="normal"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I hope you dance..."
+        android:layout_above="@id/poem"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+</RelativeLayout>
