@@ -67,14 +67,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         linearLayout.setBackgroundColor(color);
 
-        /*linearLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mediaPlayer = mediaPlayer.create(getContext(), currentWord.getmAudioResourceId());
-                mediaPlayer.start();
-            }
-        });*/
-
         // Find the TextView in the list_item.xml layout with the ID miwok_text_view
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
         // Get the Miwok translation from the current Word object and
